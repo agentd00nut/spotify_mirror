@@ -1,8 +1,9 @@
 #!/bin/bash
 
 id="2db021e2640d4413abfe8366d87bc6f5"
-secret="44cb896721c34709a0a90cc6772e4619"
-auth="Authorization: Bearer BQABBzeh_02SerpJ5Rh-Wa9ArFPLWZkyb8-LujA_LEbHaUYOyms6UEw3CEkWErWeJszYS-WkTsEDjXAAoiCZngpmAo4JimiQSeAY32fKCgUr5Aw3utX4d3zdcYDidOnblfY1CxCfqCFnRNeUHIu7Pc9s8_tC9NTVd81geYbCJoPOfVbg0VIMWKIfKn_j5N4K8IsFt_py4EGD2LByuyIvEAsqqwFAsXVSXD6tqBELOtFY5TcaSXUauNdC5uj_"
+secret=""
+token="BQBp7MTIh0DtV8gfQbGDBc5hYspg7eaRk0fwKx7jNWxIwl4IuLG2OsjOfNxoz-6LOvTFMRVz6iQ_UevMvMNlmaH27MyHwqB2DKm6SQ3FAdtf3iJB-KYj0XmFlH-3hHu0AzBVWi2unPiSG7pNXJvUjbZAnHu-KvMK5LGacyPBuXHfK6iNwl6lvPYvSWNLQl7wbrVj4PDjTsSjOQDLplMnuXY2FQ7saUc5f-t0vwWbjZIVEu9kHpn7I5ld7NRS"
+auth="Authorization: Bearer ${token}"
 
 while getopts ":u:m:s:d:e" opt; do
   case $opt in
